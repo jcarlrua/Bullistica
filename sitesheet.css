@@ -1,0 +1,72 @@
+body {
+    background-color: #02d50c;
+    box-sizing: border-box;
+    width: auto;
+    max-height: 692px;
+    @media screen{ max-width: autopx; 
+
+        
+    }
+}
+
+fieldset {
+    background-color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+p {
+    color: #02d50c;
+
+
+}
+
+fieldset1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+fieldset2 {
+    border: double;
+    border-color: #02d50c;
+
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 350;
+
+
+
+
+h4a {
+
+background-size: 100px;
+    color: black;
+    font-size: x-large;
+
+}
+
+h5a {
+    color: black;
+    font-size: x-large;
+
+
+}
+
+h6a {
+    color: black;
+    font-size: x-large;
+}
+
+}
