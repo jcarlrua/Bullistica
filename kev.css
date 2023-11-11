@@ -14,38 +14,47 @@ body {
     
 }
 h2{
-    width: fit-content;
-    height: fit-content;
+    width: auto;
+    height: auto;
 }
 h3{
-    width: fit-content;
-    height: fit-content;
+    width: auto;
+    height: auto;
+}
+
+fieldset{ 
+    width: auto;
+    display: grid;
+    
+    justify-content: center;
+   
+  
 }
 
     
 
 fieldset1{
-    @media  screen and (min-width: 550px)  {
+    @media  screen and (min-width: 700px)  {
 
         width: auto;
         display: flex;
-        flex-direction:row;
-
+        flex-direction: row;
+    }
     
    
  
  
 
-
+}
 fieldset1{
-    @media  screen and (min-width: 550px)  {
+    @media  screen and (min-width: 700px)  {
 
         width: auto;
         display: flex;
         flex-direction:row;
        
-
-
+    }
+}
 
 
 
@@ -55,10 +64,9 @@ fieldset2 {
     border: double;
     border-color: gold;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    min-width: 562px;
     
 
 
@@ -104,15 +112,3 @@ button:hover{
    
 
 }
-footer{ 
-    
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    flex: content;
-    justify-content: space-around;
-    justify-content: space-evenly;
-    
-    font-size: 36px;
-
-}}}
